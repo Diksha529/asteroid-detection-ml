@@ -53,7 +53,7 @@ st.divider()
 # 3. LOAD DATASET
 # ============================================================
 
-DATA_PATH = r"C:\Users\ADMIN\OneDrive\Desktop\PROJECT\nasa_cleaned .csv"
+DATA_PATH = "nasa_cleaned.csv"
 
 try:
     df = pd.read_csv(DATA_PATH)
